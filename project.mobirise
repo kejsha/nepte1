@@ -58,7 +58,9 @@
             ".hide-buttons [data-button]": {
               "display": "none !important"
             },
-            ".navbar-brand a": {},
+            ".navbar-brand a": {
+              "font-size": "18px"
+            },
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
               "color": "#333"

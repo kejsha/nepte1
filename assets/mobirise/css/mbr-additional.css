@@ -149,6 +149,9 @@ p {
 #dropdown-menu1-8 .hide-buttons [data-button] {
   display: none !important;
 }
+#dropdown-menu1-8 .navbar-brand a {
+  font-size: 18px;
+}
 #dropdown-menu1-8 .nav .link,
 #dropdown-menu1-8 .dropdown-item {
   font-size: 1em;
