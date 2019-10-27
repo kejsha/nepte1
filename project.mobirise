@@ -37,59 +37,6 @@
       },
       "components": [
         {
-          "_inherit": "dropdown-menu",
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": true,
-            "sticky": true,
-            "transparent": false,
-            "bgColor": "#fff",
-            "fontSize": 1,
-            "fontName": {},
-            "fontColor": "#333"
-          },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box5-4\" aria-expanded=\"true\">Описание</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#pricing-table1-5\" aria-expanded=\"true\">Цены</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-9\" aria-expanded=\"true\">Связаться с нами</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">Для Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">Для Mac</a></li>",
-          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Алмазная сварка</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
-            },
-            ".navbar-brand a": {
-              "font-size": "18px"
-            },
-            ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#333"
-            },
-            ".navbar, .dropdown-menu": {
-              "background": "#fff"
-            },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#f5f5f5"
-            },
-            ".navbar-toggler": {
-              "color": "#333"
-            }
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/diamond.svg",
-              "class": "",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "",
-              "title": ""
-            }
-          },
-          "_name": "dropdown-menu1",
-          "_anchor": "dropdown-menu1-8"
-        },
-        {
           "_params": {
             "showTitle": true,
             "showText": true,
@@ -168,7 +115,7 @@
             },
             "video": {
               "active": true,
-              "src": "https://www.youtube.com/watch?v=sr8USqkt1_Q&list=RDsr8USqkt1_Q&start_radio=1",
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
               "class": "mbr-figure__img",
               "aspectratio": "16:9",
               "autoplay": false,

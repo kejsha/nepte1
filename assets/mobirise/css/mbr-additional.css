@@ -146,29 +146,6 @@ blockquote {
 p {
   font-family: 'Raleway', sans-serif !important;
 }
-#dropdown-menu1-8 .hide-buttons [data-button] {
-  display: none !important;
-}
-#dropdown-menu1-8 .navbar-brand a {
-  font-size: 18px;
-}
-#dropdown-menu1-8 .nav .link,
-#dropdown-menu1-8 .dropdown-item {
-  font-size: 1em;
-  color: #333;
-}
-#dropdown-menu1-8 .navbar,
-#dropdown-menu1-8 .dropdown-menu {
-  background: #fff;
-}
-#dropdown-menu1-8 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
-#dropdown-menu1-8 .dropdown-menu a:hover,
-#dropdown-menu1-8 .dropdown-menu a:focus {
-  background: #f5f5f5;
-}
-#dropdown-menu1-8 .navbar-toggler {
-  color: #333;
-}
 #features1-6 H4 {
   text-align: center;
 }
