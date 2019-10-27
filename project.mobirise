@@ -1,0 +1,376 @@
+{
+  "settings": {
+    "name": "Site-10-27_1219",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "unicore",
+      "title": "Unicore-Rus",
+      "styling": {
+        "primaryColor": "#29d9c2",
+        "successColor": "#7ac673",
+        "infoColor": "#27aae0",
+        "warningColor": "#faaf40",
+        "dangerColor": "#f97352",
+        "titleFont": "Montserrat",
+        "textFont": "Raleway",
+        "isSquareButtons": false
+      },
+      "additionalSetColors": [
+        "#ffffff"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.11.4",
+    "siteFonts": [],
+    "uniqCompNum": 11,
+    "versionPublish": "4.11.4"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "dropdown-menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#fff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#333"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box5-4\" aria-expanded=\"true\">Описание</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#pricing-table1-5\" aria-expanded=\"true\">Цены</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-9\" aria-expanded=\"true\">Связаться с нами</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">Для Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">Для Mac</a></li>",
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Алмазная сварка</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#333"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#333"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/diamond.svg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "",
+              "title": ""
+            }
+          },
+          "_name": "dropdown-menu1",
+          "_anchor": "dropdown-menu1-8"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showForm": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/welding-1024x562.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title1": "Лучший способ<br>для бурения дыр.",
+          "text": "Описание",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-block\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Отправить</a>",
+          "form": {
+            "title": "SUBSCRIBE",
+            "action": "xistl@yandex.ru",
+            "alerts": {
+              "success": "Заявка оправлена!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Full Name",
+                "customTitle": "Имя"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email"
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-3"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showMedia": true,
+            "bgImageRadio": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "images/iphone.png"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=sr8USqkt1_Q&list=RDsr8USqkt1_Q&start_radio=1",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "ЧТО ЭТО ТАКОЕ?",
+          "text": "Описание",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Смотреть видео</a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-4"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n<p class=\"t\"> Почему мы? </p>",
+          "_customCSS": "/* Type valid CSS here */\n.t {\n  width: 100%;\n    text-align: center;\n    font - size: 30px;\n    font - weight: bold;\n    font - color: black;\n  \n}",
+          "alias": "codeeditor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-7",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showText": true,
+            "elements": "3",
+            "paddingTop": 2,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5,
+            "showIcons": true,
+            "iconsColor": "@primaryColor",
+            "icon1": "fa-lightbulb-o",
+            "icon2": "fa-trophy",
+            "icon3": "fa-check-circle",
+            "icon4": "fa-lightbulb-o"
+          },
+          "title1": "Причина 1",
+          "title2": "Причина 2",
+          "title3": "Причина 3",
+          "title4": "Flashy Look",
+          "text1": "Описание",
+          "text2": "Описание",
+          "text3": "Описание",
+          "text4": "Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-6",
+          "_styles": {
+            "H4": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "elements": "3",
+            "best": "4",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#3F51B5",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Цены на наши услги",
+          "text": "",
+          "favorite": "",
+          "title1": "1",
+          "text1": "Для заказов маленького объема",
+          "currency1": "РУБ",
+          "price1": "1111<br>",
+          "period1": "<br><br>",
+          "list1": "<div><font color=\"#666666\" face=\"Raleway, sans-serif\"><span style=\"font-size: 14.25px;\"></span></font></div>",
+          "button1": "<a data-app-btn=\"true\" href=\"http://mobiris.ru\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">ВЫБЕРИТЕ ПЛАН</a>",
+          "title2": "2",
+          "text2": "Для заказов среднего объема",
+          "currency2": "РУБ",
+          "price2": "9999",
+          "period2": "<br><br>",
+          "list2": "<div><font color=\"#666666\" face=\"Raleway, sans-serif\"><span style=\"font-size: 14.25px;\"></span></font></div>",
+          "button2": "<a data-app-btn=\"true\" href=\"http://mobiris.ru\" class=\"btn mbr-title-font btn-primary\">ВЫБЕРИТЕ ПЛАН</a>",
+          "title3": "3",
+          "text3": "Для заказов большого объема",
+          "currency3": "РУБ",
+          "price3": "5555",
+          "period3": "<br><br>",
+          "list3": "<div><font color=\"#666666\" face=\"Raleway, sans-serif\"><span style=\"font-size: 14.25px;\"></span></font></div>",
+          "button3": "<a data-app-btn=\"true\" href=\"http://mobiris.ru\" class=\"btn mbr-title-font btn-primary\">ВЫБЕРИТЕ ПЛАН</a>",
+          "title4": "SUPER",
+          "text4": "Perfect for small less than 10 team",
+          "currency4": "$",
+          "price4": "199",
+          "period4": "/ month",
+          "list4": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">9 GB of space</li><li class=\"pricing__feature\">Support at $25/hour</li><li class=\"pricing__feature\">Small social media</li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"http://mobiris.ru\" class=\"btn mbr-title-font btn-primary\">ВЫБЕРИТЕ ПЛАН</a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-5"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n<br>\n<p class=\"t\"> Оставьте заявку и наши специалисты свяжутся с вами. </p>\n<br>",
+          "_customCSS": "/* Type valid CSS here */\n.t {\n  width: 100%;\n    text-align: center;\n    font - size: 30px;\n    font - weight: bold;\n    font - color: black;\n  \n}",
+          "alias": "codeeditor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-a",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Контактная фонрма",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-default btn-ico\">Отправить<i class=\"fa fa-paper-plane-o\"></i></a>",
+          "form": {
+            "action": "xistl@yandex.ru",
+            "alerts": {
+              "success": "Ваша заявка принята!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Имя*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "subject": {
+                "visible": false,
+                "title": "subject",
+                "customTitle": "Тема"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Введите ваше сообшение и номер телефона!"
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-9"
+        }
+      ]
+    }
+  }
+}
